@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="http://kit.fontawesome.com/6dfcb97e89.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="menu">
+
+        <div class="homepage-container">
+            <div class="homepage-content">
+                <div class="homepage-txt">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Pagina Inicial</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="user-container">
+            <div class="user-content">
+                <div class="user-txt">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Perfil</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="create-container">
+            <div class="create-content">
+                <div class="create-txt">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <p>Criar</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-content">
+        <input class="search-txt" type="text" placeholder="Faça sua busca">
+        <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+        </a>
+       
+        </div>
+    </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="top-content">
+                    <img src="./imagem/th.jpg" id="perfil">
+                    <button>&#9776;</button>
+                    <ul>
+                        <li><a href="#">Excluir</a></li>
+                        <li><a href="#">Cancelar</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="card-img">
+                    <img src="./imagem/download.jpg" alt="" id="post">
+                </div>
+                <div class="card-content">
+                    <p>Nome do perfil</p>
+                    <p>Legenda da foto</p>
+                </div>
+        </div>
+    
+            <div class="next-card">
+                <div class="card-top">
+                    <div class="top-content">
+                        <img src="./imagem/th.jpg" id="perfil">
+                        <button>&#9776;</button>
+                        <ul>
+                            <li><a href="#">Excluir</a></li>
+                            <li><a href="#">Cancelar</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <img src="./imagem/download.jpg" alt="" id="post">
+                    </div>
+                    <div class="card-content">
+                        <p>Nome do perfil</p>
+                        <p>Legenda da foto</p>
+                    </div>
+            </div>
+    
+</body>
+</html>
